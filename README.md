@@ -45,9 +45,6 @@ In Pipeline jobs, the build step to scan the image with Portshift is included in
 1. Add the a snippet such as the following to the pipeline script, to include a step to scan the image. 
 
 ![](images/Jenkins-build-pipeline.png)
-3. Alternatively, you can use the Snippet Generator to create the snippet.
-
-![](images/Jenkins-build-pipeline-script-generator.png)
 
 ## Plugin Output
 
