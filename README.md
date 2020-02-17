@@ -17,10 +17,6 @@ Enables scanning of docker images for vulnerabilities and report to Portshift se
 
 ![](images/Jenkins-plugin-installed.png)
 
-3. In Jenkins, select **Manage Jenkins**, then select **Configure System**.
-
-![](images/Jenkins-configure-plugin.png)
-
 
 ## Use the plugin
 You can use the plugin in the build process in Freestyle and Pipelines jobs. You can configure the job to scan the image during the build process.
@@ -45,9 +41,6 @@ In Pipeline jobs, the build step to scan the image with Portshift is included in
 1. Add the a snippet such as the following to the pipeline script, to include a step to scan the image. 
 
 ![](images/Jenkins-build-pipeline.png)
-3. Alternatively, you can use the Snippet Generator to create the snippet.
-
-![](images/Jenkins-build-pipeline-script-generator.png)
 
 ## Plugin Output
 
